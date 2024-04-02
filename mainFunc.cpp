@@ -38,6 +38,11 @@ inline void printExpression(double result, int count, char oper, double num){
                 std::cout << "Incorrect operator. Try again\n";
                 continue;
         }
+
+        count++;
     }
 
+    std::cout << "Result: " << result << '\n';
+
 }
+
