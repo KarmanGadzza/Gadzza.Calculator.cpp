@@ -1,5 +1,5 @@
 #include "main.hpp"
-
+#include "mainFunc.cpp"
 
 int main() {
 double result= 0.0;
@@ -8,9 +8,7 @@ char oper;
 int count = 0;
 
     hiPrint();
-    printExpression();
+    printExpression(result, num, oper, count);
 
     return 0;
 }
-
-// писька писька хуй
