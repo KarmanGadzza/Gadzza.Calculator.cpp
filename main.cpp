@@ -8,7 +8,7 @@ char oper;
 int count = 0;
 
     hiPrint();
-    printExpression(result, num, oper, count);
+    printExpression(num, oper, count);
 
     return 0;
 }

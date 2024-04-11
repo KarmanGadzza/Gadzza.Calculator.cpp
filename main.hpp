@@ -3,14 +3,14 @@
 
 
 #include <iostream>
-#include <cmath>
+#include "cmath"
 
 
 inline void hiPrint(){
     std::cout << "Hi this calculator\nnumber->operation->number->...->equall\n";
 }
 
-inline void printExpression(double result, int count, char oper, double num);
+inline void printExpression(double num, char oper, int count);
 
 
 #endif // MAIN_HPP
